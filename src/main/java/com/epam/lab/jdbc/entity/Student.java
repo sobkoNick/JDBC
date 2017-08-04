@@ -91,4 +91,17 @@ public class Student {
     public void setDepartment_fk(String department_fk) {
         this.department_fk = department_fk;
     }
+
+    @Override
+    public String toString() {
+        return "Student{" +
+                "gradebook_no=" + gradebook_no +
+                ", first_name='" + first_name + '\'' +
+                ", last_name='" + last_name + '\'' +
+                ", gender='" + gender + '\'' +
+                ", dob='" + dob + '\'' +
+                ", phone_number='" + phone_number + '\'' +
+                ", department_fk='" + department_fk + '\'' +
+                '}';
+    }
 }

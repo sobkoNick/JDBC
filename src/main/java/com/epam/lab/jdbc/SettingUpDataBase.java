@@ -1,5 +1,7 @@
 package com.epam.lab.jdbc;
 
+import com.epam.lab.jdbc.sqlConst.SQLConst;
+
 import java.sql.Connection;
 import java.sql.SQLException;
 import java.sql.Statement;
@@ -12,27 +14,13 @@ public class SettingUpDataBase {
         try {
             connection.setAutoCommit(false);
 
-            setDBStatement(connection, "DROP DATABASE IF EXISTS jdbc_univer;");
-            setDBStatement(connection, "create database jdbc_univer default Character set utf8;");
-            setDBStatement(connection, "use jdbc_univer;");
-            setDBStatement(connection, "create table student(\n" +
-                    "\tgradebook_no int primary key,\n" +
-                    "    first_name varchar(40) not null,\n" +
-                    "    last_name varchar(40) not null,\n" +
-                    "    gender varchar(1) not null,\n" +
-                    "    dob date not null,\n" +
-                    "\tphone_number varchar(20),\n" +
-                    "    department_fk varchar(20)\n" +
-                    ") default Character set utf8;\n");
+            setDBStatement(connection, SQLConst.DROP_DATABASE_IFEXIST);
+            setDBStatement(connection, SQLConst.CREATE_DATABASE);
+            setDBStatement(connection, SQLConst.USE_DATABASE);
+            setDBStatement(connection, SQLConst.CREATE_TABLE_STUDENT);
 
-            setDBStatement(connection,"create table department(\n" +
-                    "\tdep_uuid varchar(20) primary key,\n" +
-                    "    course tinyint,\n" +
-                    "    speciality VARCHAR(40)\n" +
-                    ") default Character set utf8;");
-            setDBStatement(connection, "alter table student add constraint\n" +
-                    "\tforeign key(department_fk)\n" +
-                    "    references department(dep_uuid);");
+            setDBStatement(connection,SQLConst.CREATE_TABLE_DEPARTMENT);
+            setDBStatement(connection, SQLConst.WIRE_TABLES);
             connection.commit();
 
         } catch (SQLException e) {
@@ -42,6 +30,9 @@ public class SettingUpDataBase {
                 connection.close();
             }
         }
+    }
+    public static void useUniverDB(Connection connection) throws SQLException {
+        setDBStatement(connection, SQLConst.USE_DATABASE);
     }
 
     public static void setDBStatement(Connection connection, String sql) throws SQLException {

@@ -1,7 +1,6 @@
 package com.epam.lab.jdbc.dao;
 
 import com.epam.lab.jdbc.entity.Department;
-import com.epam.lab.jdbc.entity.Student;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;

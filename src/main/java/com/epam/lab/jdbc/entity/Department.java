@@ -40,4 +40,13 @@ public class Department {
     public void setSpeciality(String speciality) {
         this.speciality = speciality;
     }
+
+    @Override
+    public String toString() {
+        return "Department{" +
+                "dep_uuid='" + dep_uuid + '\'' +
+                ", course=" + course +
+                ", speciality='" + speciality + '\'' +
+                '}';
+    }
 }
