@@ -1,0 +1,31 @@
+2017-08-03 21:25:04,662  INFO com.epam.lab.jdbc.Main:11 - main() started
+2017-08-03 21:25:04,665  INFO com.epam.lab.jdbc.Main:12 - main() ended
+2017-08-03 22:30:01,707  INFO com.epam.lab.jdbc.Main:22 - main() started
+2017-08-03 22:31:07,961  INFO com.epam.lab.jdbc.Main:22 - main() started
+2017-08-03 22:35:26,989  INFO com.epam.lab.jdbc.Main:22 - main() started
+2017-08-03 22:45:25,166  INFO com.epam.lab.jdbc.Main:22 - main() started
+2017-08-03 22:51:04,959  INFO com.epam.lab.jdbc.Main:22 - main() started
+2017-08-03 22:55:02,437  INFO com.epam.lab.jdbc.Main:22 - main() started
+2017-08-03 22:55:02,437  INFO com.epam.lab.jdbc.Main:63 - main() ended
+2017-08-03 23:00:35,773  INFO com.epam.lab.jdbc.Main:18 - main() started
+2017-08-03 23:00:56,245  INFO com.epam.lab.jdbc.Main:18 - main() started
+2017-08-03 23:01:36,551  INFO com.epam.lab.jdbc.Main:17 - main() started
+2017-08-03 23:24:48,061  INFO com.epam.lab.jdbc.Main:19 - main() started
+2017-08-03 23:24:53,048  INFO com.epam.lab.jdbc.Main:19 - main() started
+2017-08-03 23:25:52,697  INFO com.epam.lab.jdbc.Main:18 - main() started
+2017-08-03 23:26:15,152  INFO com.epam.lab.jdbc.Main:18 - main() started
+2017-08-03 23:28:10,532  INFO com.epam.lab.jdbc.Main:18 - main() started
+2017-08-03 23:28:38,428  INFO com.epam.lab.jdbc.Main:18 - main() started
+2017-08-03 23:30:07,042  INFO com.epam.lab.jdbc.Main:18 - main() started
+2017-08-03 23:30:32,062  INFO com.epam.lab.jdbc.Main:18 - main() started
+2017-08-03 23:30:32,617  INFO com.epam.lab.jdbc.Main:31 - main() ended
+2017-08-03 23:33:31,264  INFO com.epam.lab.jdbc.Main:18 - main() started
+2017-08-03 23:33:31,753  INFO com.epam.lab.jdbc.Main:25 - Creating database...
+2017-08-03 23:33:31,769  INFO com.epam.lab.jdbc.Main:30 - Database created successfully...
+2017-08-03 23:33:31,769  INFO com.epam.lab.jdbc.Main:33 - main() ended
+2017-08-03 23:37:57,895  INFO com.epam.lab.jdbc.Main:18 - main() started
+2017-08-03 23:37:58,458  INFO com.epam.lab.jdbc.Main:24 - Creating database...
+2017-08-03 23:38:25,960  INFO com.epam.lab.jdbc.Main:18 - main() started
+2017-08-03 23:38:26,583  INFO com.epam.lab.jdbc.Main:24 - Creating database...
+2017-08-03 23:38:26,583  INFO com.epam.lab.jdbc.Main:29 - Database created successfully...
+2017-08-03 23:38:26,583  INFO com.epam.lab.jdbc.Main:32 - main() ended
