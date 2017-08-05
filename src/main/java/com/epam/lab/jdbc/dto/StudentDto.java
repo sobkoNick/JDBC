@@ -41,7 +41,7 @@ public class StudentDto {
         PreparedStatement preparedStatement = connection.prepareStatement
                 ("SELECT * from student s;");
         ResultSet resultSet = preparedStatement.executeQuery();
-        List<Student> students =new ArrayList<>();
+        List<Student> students = new ArrayList<>();
         while (resultSet.next()) {
             students.add(getStudentData(resultSet));
         }

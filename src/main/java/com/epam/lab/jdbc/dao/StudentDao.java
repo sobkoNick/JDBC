@@ -13,14 +13,15 @@ import java.sql.SQLException;
 public class StudentDao {
     public void addStudent(Connection connection, Student student) throws SQLException {
         PreparedStatement preparedStatement = connection.prepareStatement("INSERT INTO  student(gradebook_no, first_name, " +
-                "last_name, gender, dob, phone_number) " +
-                "VALUES (?,?,?,?,?,?)");
+                "last_name, gender, dob, phone_number, department_fk) " +
+                "VALUES (?,?,?,?,?,?,?)");
         preparedStatement.setInt(1, student.getGradebook_no());
         preparedStatement.setString(2, student.getFirst_name());
         preparedStatement.setString(3, student.getLast_name());
         preparedStatement.setString(4, student.getGender());
         preparedStatement.setDate(5, Date.valueOf(student.getDob()));
         preparedStatement.setString(6, student.getPhone_number());
+        preparedStatement.setString(7, student.getDepartment_fk());
         preparedStatement.execute();
     }
 

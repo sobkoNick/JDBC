@@ -1,8 +1,16 @@
 package com.epam.lab.jdbc;
 
+import com.epam.lab.jdbc.dto.DepartmentDto;
+import com.epam.lab.jdbc.dto.StudentDto;
+import com.epam.lab.jdbc.entity.Department;
+import com.epam.lab.jdbc.entity.Student;
+import com.epam.lab.jdbc.serviceImpl.DepartmentServiceImpl;
+import com.epam.lab.jdbc.serviceImpl.StudentServiceImpl;
 import com.epam.lab.jdbc.sqlConst.SQLConst;
+import org.apache.log4j.Logger;
 
 import java.sql.Connection;
+import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.sql.Statement;
 
@@ -19,7 +27,7 @@ public class SettingUpDataBase {
             setDBStatement(connection, SQLConst.USE_DATABASE);
             setDBStatement(connection, SQLConst.CREATE_TABLE_STUDENT);
 
-            setDBStatement(connection,SQLConst.CREATE_TABLE_DEPARTMENT);
+            setDBStatement(connection, SQLConst.CREATE_TABLE_DEPARTMENT);
             setDBStatement(connection, SQLConst.WIRE_TABLES);
             connection.commit();
 
@@ -31,6 +39,7 @@ public class SettingUpDataBase {
             }
         }
     }
+
     public static void useUniverDB(Connection connection) throws SQLException {
         setDBStatement(connection, SQLConst.USE_DATABASE);
     }
@@ -44,6 +53,30 @@ public class SettingUpDataBase {
             if (setUpDBStatement != null) {
                 setUpDBStatement.close();
             }
+        }
+    }
+
+    public static void addDataToDB(Logger LOG) {
+        DepartmentServiceImpl departmentService = new DepartmentServiceImpl();
+        departmentService.addDep(new Department("феі21", 2, "комп науки"));
+        departmentService.addDep(new Department("феі31", 3, "комп науки"));
+        departmentService.addDep(new Department("фем11", 1, "медичні науки"));
+
+        StudentServiceImpl studentService = new StudentServiceImpl();
+        studentService.addStudent(new Student(3112070, "Mykola", "Sobko", "M", "1994-05-23", "0937405000", "феі31"));
+        studentService.addStudent(new Student(3112050, "Andrei", "Tkass", "M", "1995-05-22", "0503505030", "феі21"));
+        studentService.addStudent(new Student(3112020, "Vassa", "Rojo", "M", "1997-08-28", "0687002034", "фем11"));
+
+        try (Connection connection = DriverManager.getConnection(SQLConst.URL, SQLConst.USER, SQLConst.PASSWORD)) {
+            SettingUpDataBase.useUniverDB(connection);
+            DepartmentDto departmentDto = new DepartmentDto();
+            LOG.info("All departments:");
+            departmentDto.getAllDepartments(connection).forEach(LOG::info);
+            LOG.info("All students:");
+            StudentDto studentDto = new StudentDto();
+            studentDto.getAllStudent(connection).forEach(LOG::info);
+        } catch (SQLException e) {
+            e.printStackTrace();
         }
     }
 }

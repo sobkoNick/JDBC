@@ -1,10 +1,13 @@
 package com.epam.lab.jdbc.dao;
 
+import com.epam.lab.jdbc.dto.StudentDto;
 import com.epam.lab.jdbc.entity.Department;
+import com.epam.lab.jdbc.entity.Student;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
+import java.util.List;
 
 /**
  *
@@ -30,6 +33,23 @@ public class DepartmentDao {
     }
 
     public void deleteDepartment(Connection connection, String dep_uuid) throws SQLException {
+        try {
+            connection.setAutoCommit(false);
+            StudentDto studentDto = new StudentDto();
+            List<Student> students = studentDto.getAllStudent(connection);
+
+
+
+
+        } catch (SQLException e) {
+            connection.rollback();
+        } finally {
+            if (connection != null) {
+                connection.close();
+            }
+        }
+
+
         PreparedStatement preparedStatement = connection.prepareStatement("DELETE FROM department WHERE dep_uuid=?;");
         preparedStatement.setString(1, dep_uuid);
         preparedStatement.execute();
