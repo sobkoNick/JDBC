@@ -1,17 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="949b5a55-ae87-49e1-aafb-64b2c982f49a" name="Default" comment="Setting up db at the start of the program works quite well.&#10;java 8 used to show data in logger.">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/epam/lab/jdbc/dto/DepartmentDto.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+    <list default="true" id="949b5a55-ae87-49e1-aafb-64b2c982f49a" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JDBC.iml" afterPath="$PROJECT_DIR$/JDBC.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epam/lab/jdbc/Main.java" afterPath="$PROJECT_DIR$/src/main/java/com/epam/lab/jdbc/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epam/lab/jdbc/SettingUpDataBase.java" afterPath="$PROJECT_DIR$/src/main/java/com/epam/lab/jdbc/SettingUpDataBase.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epam/lab/jdbc/dao/DepartmentDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/epam/lab/jdbc/dao/DepartmentDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epam/lab/jdbc/dao/StudentDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/epam/lab/jdbc/dao/StudentDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epam/lab/jdbc/dto/StudentDto.java" afterPath="$PROJECT_DIR$/src/main/java/com/epam/lab/jdbc/dto/StudentDto.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -889,12 +880,20 @@
       <workItem from="1501827972352" duration="13965000" />
       <workItem from="1501854317577" duration="8438000" />
       <workItem from="1501878804441" duration="1374000" />
-      <workItem from="1501930981792" duration="5860000" />
+      <workItem from="1501930981792" duration="5928000" />
     </task>
+    <task id="LOCAL-00001" summary="Setting up db at the start of the program works quite well.&#10;java 8 used to show data in logger.">
+      <created>1501937690765</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1501937690765</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41050000" />
+    <option name="totallyTimeSpent" value="41118000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
