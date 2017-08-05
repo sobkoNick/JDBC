@@ -10,7 +10,10 @@ import java.util.List;
  */
 public interface DepartmentService {
     public void addDep(Department department);
-    public void updateDep(String dep_uuid, Department department);
-    public void deleteDep(String dep_uuid);
+
+    public void updateDep();
+
+    public void deleteDep();
+
     List<Department> getAllDepartments();
 }

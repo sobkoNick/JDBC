@@ -1,4 +1,4 @@
-package com.epam.lab.jdbc.dto;
+package com.epam.lab.jdbc.transformer;
 
 import com.epam.lab.jdbc.entity.Student;
 
@@ -12,7 +12,7 @@ import java.util.List;
 /**
  *
  */
-public class StudentDto {
+public class StudentTransformer {
     public Student getStudentByGradebook(Connection connection, int gradebook) throws SQLException {
         PreparedStatement preparedStatement = connection.prepareStatement
                 ("SELECT * from student s WHERE s.gradebook_no = ?;");
@@ -28,6 +28,18 @@ public class StudentDto {
     public List<Student> getAllStudent(Connection connection) throws SQLException {
         PreparedStatement preparedStatement = connection.prepareStatement
                 ("SELECT * from student s;");
+        ResultSet resultSet = preparedStatement.executeQuery();
+        List<Student> students = new ArrayList<>();
+        while (resultSet.next()) {
+            students.add(getStudentData(resultSet));
+        }
+        return students;
+    }
+
+    public List<Student> getAllStudentFromDepartment(Connection connection, String dep_uuid) throws SQLException {
+        PreparedStatement preparedStatement = connection.prepareStatement
+                ("SELECT * from student s WHERE s.department_fk LIKE ?;");
+        preparedStatement.setString(1, dep_uuid);
         ResultSet resultSet = preparedStatement.executeQuery();
         List<Student> students = new ArrayList<>();
         while (resultSet.next()) {

@@ -1,7 +1,7 @@
-package com.epam.lab.jdbc;
+package com.epam.lab.jdbc.controller;
 
-import com.epam.lab.jdbc.dto.DepartmentDto;
-import com.epam.lab.jdbc.dto.StudentDto;
+import com.epam.lab.jdbc.transformer.DepartmentTransformer;
+import com.epam.lab.jdbc.transformer.StudentTransformer;
 import com.epam.lab.jdbc.entity.Department;
 import com.epam.lab.jdbc.entity.Student;
 import com.epam.lab.jdbc.serviceImpl.DepartmentServiceImpl;
@@ -75,8 +75,8 @@ public class SettingUpDataBase {
         try (Connection connection = DriverManager.getConnection(SQLConst.URL, SQLConst.USER, SQLConst.PASSWORD)) {
             SettingUpDataBase.useUniverDB(connection);
             LOG.info("All students:");
-            StudentDto studentDto = new StudentDto();
-            studentDto.getAllStudent(connection).forEach(LOG::info);
+            StudentTransformer studentTransformer = new StudentTransformer();
+            studentTransformer.getAllStudent(connection).forEach(LOG::info);
         } catch (SQLException e) {
             e.printStackTrace();
         }
@@ -85,9 +85,9 @@ public class SettingUpDataBase {
     public static void showAllDep(Logger LOG) throws SQLException {
         try (Connection connection = DriverManager.getConnection(SQLConst.URL, SQLConst.USER, SQLConst.PASSWORD)) {
             SettingUpDataBase.useUniverDB(connection);
-            DepartmentDto departmentDto = new DepartmentDto();
+            DepartmentTransformer departmentTransformer = new DepartmentTransformer();
             LOG.info("All departments:");
-            departmentDto.getAllDepartments(connection).forEach(LOG::info);
+            departmentTransformer.getAllDepartments(connection).forEach(LOG::info);
         } catch (SQLException e) {
             e.printStackTrace();
         }

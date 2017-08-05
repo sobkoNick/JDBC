@@ -1,4 +1,4 @@
-package com.epam.lab.jdbc.dto;
+package com.epam.lab.jdbc.transformer;
 
 import com.epam.lab.jdbc.entity.Department;
 
@@ -12,11 +12,10 @@ import java.util.List;
 /**
  *
  */
-public class DepartmentDto {
+public class DepartmentTransformer {
     public List<Department> getAllDepartments(Connection connection) throws SQLException {
         PreparedStatement preparedStatement = connection.prepareStatement("SELECT * from department;");
         ResultSet resultSet = preparedStatement.executeQuery();
-
         List<Department> departments = new ArrayList<>();
         while (resultSet.next()) {
             Department department = new Department();
