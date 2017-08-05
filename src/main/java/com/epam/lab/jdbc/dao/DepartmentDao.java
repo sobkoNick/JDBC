@@ -23,12 +23,11 @@ public class DepartmentDao {
     }
 
     public void updateDepartment(Connection connection, String dep_uuid, Department department) throws SQLException {
-        PreparedStatement preparedStatement = connection.prepareStatement("UPDATE department SET dep_uuid=?, " +
+        PreparedStatement preparedStatement = connection.prepareStatement("UPDATE department SET " +
                 "course=?, speciality=? WHERE dep_uuid=?");
-        preparedStatement.setString(1, department.getDep_uuid());
-        preparedStatement.setInt(2, department.getCourse());
-        preparedStatement.setString(3, department.getSpeciality());
-        preparedStatement.setString(4, dep_uuid);
+        preparedStatement.setInt(1, department.getCourse());
+        preparedStatement.setString(2, department.getSpeciality());
+        preparedStatement.setString(3, dep_uuid);
         preparedStatement.execute();
     }
 
@@ -48,7 +47,6 @@ public class DepartmentDao {
                 connection.close();
             }
         }
-
 
         PreparedStatement preparedStatement = connection.prepareStatement("DELETE FROM department WHERE dep_uuid=?;");
         preparedStatement.setString(1, dep_uuid);

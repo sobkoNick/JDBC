@@ -1,0 +1,224 @@
+2017-08-04 00:11:28,926  INFO com.epam.lab.jdbc.Main:18 - main() started
+2017-08-04 00:11:29,440  INFO com.epam.lab.jdbc.Main:24 - set up db
+2017-08-04 00:11:29,456  INFO com.epam.lab.jdbc.Main:28 - main() ended
+2017-08-04 00:11:56,758  INFO com.epam.lab.jdbc.Main:18 - main() started
+2017-08-04 00:12:10,447  INFO com.epam.lab.jdbc.Main:18 - main() started
+2017-08-04 00:12:10,948  INFO com.epam.lab.jdbc.Main:24 - set up db
+2017-08-04 00:12:10,963  INFO com.epam.lab.jdbc.Main:28 - main() ended
+2017-08-04 00:12:39,219  INFO com.epam.lab.jdbc.Main:18 - main() started
+2017-08-04 00:12:39,736  INFO com.epam.lab.jdbc.Main:24 - set up db
+2017-08-04 00:12:39,767  INFO com.epam.lab.jdbc.Main:28 - main() ended
+2017-08-04 00:14:17,975  INFO com.epam.lab.jdbc.Main:18 - main() started
+2017-08-04 00:14:18,557  INFO com.epam.lab.jdbc.Main:24 - set up db
+2017-08-04 00:14:18,610  INFO com.epam.lab.jdbc.Main:28 - main() ended
+2017-08-04 00:20:29,929  INFO com.epam.lab.jdbc.Main:18 - main() started
+2017-08-04 00:20:30,441  INFO com.epam.lab.jdbc.Main:24 - set up db
+2017-08-04 00:20:30,492  INFO com.epam.lab.jdbc.Main:28 - main() ended
+2017-08-04 00:20:46,775  INFO com.epam.lab.jdbc.Main:18 - main() started
+2017-08-04 00:20:58,267  INFO com.epam.lab.jdbc.Main:18 - main() started
+2017-08-04 00:20:58,779  INFO com.epam.lab.jdbc.Main:24 - set up db
+2017-08-04 00:20:58,827  INFO com.epam.lab.jdbc.Main:28 - main() ended
+2017-08-04 00:30:21,505  INFO com.epam.lab.jdbc.Main:18 - main() started
+2017-08-04 00:30:21,989  INFO com.epam.lab.jdbc.Main:24 - set up db
+2017-08-04 00:30:22,067  INFO com.epam.lab.jdbc.Main:29 - main() ended
+2017-08-04 09:49:15,566  INFO com.epam.lab.jdbc.Main:18 - main() started
+2017-08-04 09:49:16,212  INFO com.epam.lab.jdbc.Main:22 - set up db
+2017-08-04 09:49:16,290  INFO com.epam.lab.jdbc.Main:27 - main() ended
+2017-08-04 12:39:33,040  INFO com.epam.lab.jdbc.Main:21 - main() started
+2017-08-04 12:39:33,646  INFO com.epam.lab.jdbc.Main:25 - set up db
+2017-08-04 12:39:33,719  INFO com.epam.lab.jdbc.Main:28 - add student
+2017-08-04 12:39:33,736  INFO com.epam.lab.jdbc.Main:35 - main() ended
+2017-08-04 12:40:33,507  INFO com.epam.lab.jdbc.Main:21 - main() started
+2017-08-04 12:40:33,966  INFO com.epam.lab.jdbc.Main:25 - set up db
+2017-08-04 12:40:34,014  INFO com.epam.lab.jdbc.Main:27 - add student
+2017-08-04 12:45:18,498  INFO com.epam.lab.jdbc.Main:24 - main() started
+2017-08-04 12:45:18,958  INFO com.epam.lab.jdbc.Main:28 - set up db
+2017-08-04 12:45:19,005  INFO com.epam.lab.jdbc.Main:30 - add student
+2017-08-04 12:45:19,040  INFO com.epam.lab.jdbc.Main:37 - main() ended
+2017-08-04 12:48:54,235  INFO com.epam.lab.jdbc.Main:24 - main() started
+2017-08-04 12:48:54,719  INFO com.epam.lab.jdbc.Main:28 - set up db
+2017-08-04 12:48:54,766  INFO com.epam.lab.jdbc.Main:30 - add student
+2017-08-04 12:48:54,799  INFO com.epam.lab.jdbc.Main:37 - main() ended
+2017-08-04 12:51:49,266  INFO com.epam.lab.jdbc.Main:24 - main() started
+2017-08-04 12:51:49,731  INFO com.epam.lab.jdbc.Main:28 - set up db
+2017-08-04 12:51:49,786  INFO com.epam.lab.jdbc.Main:30 - add student
+2017-08-04 12:51:49,807  INFO com.epam.lab.jdbc.Main:37 - main() ended
+2017-08-04 12:52:26,923  INFO com.epam.lab.jdbc.Main:24 - main() started
+2017-08-04 12:52:27,402  INFO com.epam.lab.jdbc.Main:28 - set up db
+2017-08-04 12:52:27,455  INFO com.epam.lab.jdbc.Main:30 - add student
+2017-08-04 12:52:27,471  INFO com.epam.lab.jdbc.Main:37 - main() ended
+2017-08-04 12:53:09,857  INFO com.epam.lab.jdbc.Main:24 - main() started
+2017-08-04 12:53:10,342  INFO com.epam.lab.jdbc.Main:28 - set up db
+2017-08-04 12:53:10,389  INFO com.epam.lab.jdbc.Main:30 - add student
+2017-08-04 12:53:10,440  INFO com.epam.lab.jdbc.Main:38 - main() ended
+2017-08-04 12:54:22,455  INFO com.epam.lab.jdbc.Main:24 - main() started
+2017-08-04 12:54:22,956  INFO com.epam.lab.jdbc.Main:28 - set up db
+2017-08-04 12:54:23,002  INFO com.epam.lab.jdbc.Main:30 - add student
+2017-08-04 12:54:23,025  INFO com.epam.lab.jdbc.Main:37 - main() ended
+2017-08-04 12:55:26,685  INFO com.epam.lab.jdbc.Main:24 - main() started
+2017-08-04 12:55:27,187  INFO com.epam.lab.jdbc.Main:28 - set up db
+2017-08-04 12:55:27,233  INFO com.epam.lab.jdbc.Main:30 - add student
+2017-08-04 12:55:27,271  INFO com.epam.lab.jdbc.Main:37 - main() ended
+2017-08-04 12:57:59,407  INFO com.epam.lab.jdbc.Main:24 - main() started
+2017-08-04 12:57:59,888  INFO com.epam.lab.jdbc.Main:28 - set up db
+2017-08-04 12:57:59,937  INFO com.epam.lab.jdbc.Main:30 - add student
+2017-08-04 12:57:59,953  INFO com.epam.lab.jdbc.Main:37 - main() ended
+2017-08-04 12:58:32,187  INFO com.epam.lab.jdbc.Main:24 - main() started
+2017-08-04 12:58:32,666  INFO com.epam.lab.jdbc.Main:28 - set up db
+2017-08-04 12:58:32,719  INFO com.epam.lab.jdbc.Main:30 - add student
+2017-08-04 12:58:32,751  INFO com.epam.lab.jdbc.Main:37 - main() ended
+2017-08-04 12:59:54,538  INFO com.epam.lab.jdbc.Main:24 - main() started
+2017-08-04 12:59:55,019  INFO com.epam.lab.jdbc.Main:28 - set up db
+2017-08-04 12:59:55,066  INFO com.epam.lab.jdbc.Main:30 - add student
+2017-08-04 12:59:55,097  INFO com.epam.lab.jdbc.Main:37 - main() ended
+2017-08-04 13:06:04,364  INFO com.epam.lab.jdbc.Main:24 - main() started
+2017-08-04 13:06:04,809  INFO com.epam.lab.jdbc.Main:28 - set up db
+2017-08-04 13:06:04,856  INFO com.epam.lab.jdbc.Main:30 - add student
+2017-08-04 13:06:04,888  INFO com.epam.lab.jdbc.Main:37 - main() ended
+2017-08-04 13:12:40,355  INFO com.epam.lab.jdbc.Main:24 - main() started
+2017-08-04 13:12:40,824  INFO com.epam.lab.jdbc.Main:28 - set up db
+2017-08-04 13:12:40,878  INFO com.epam.lab.jdbc.Main:30 - add student
+2017-08-04 13:12:40,893  INFO com.epam.lab.jdbc.Main:37 - main() ended
+2017-08-04 13:14:26,297  INFO com.epam.lab.jdbc.Main:24 - main() started
+2017-08-04 13:14:26,761  INFO com.epam.lab.jdbc.Main:28 - set up db
+2017-08-04 13:14:26,846  INFO com.epam.lab.jdbc.Main:30 - add student
+2017-08-04 13:14:26,846  INFO com.epam.lab.jdbc.Main:35 - main() ended
+2017-08-04 13:19:23,364  INFO com.epam.lab.jdbc.Main:24 - main() started
+2017-08-04 13:19:23,874  INFO com.epam.lab.jdbc.Main:41 - set up db
+2017-08-04 13:19:23,943  INFO com.epam.lab.jdbc.Main:43 - add student
+2017-08-04 13:19:23,974  INFO com.epam.lab.jdbc.Main:36 - main() ended
+2017-08-04 13:20:49,646  INFO com.epam.lab.jdbc.Main:24 - main() started
+2017-08-04 13:20:50,125  INFO com.epam.lab.jdbc.Main:42 - set up db
+2017-08-04 13:20:50,179  INFO com.epam.lab.jdbc.Main:44 - add student
+2017-08-04 13:20:50,210  INFO com.epam.lab.jdbc.Main:37 - main() ended
+2017-08-04 13:35:42,544  INFO com.epam.lab.jdbc.Main:24 - main() started
+2017-08-04 13:35:43,015  INFO com.epam.lab.jdbc.Main:58 - set up db
+2017-08-04 13:35:43,078  INFO com.epam.lab.jdbc.Main:60 - add student
+2017-08-04 13:35:43,131  INFO com.epam.lab.jdbc.Main:30 - main() ended
+2017-08-04 13:49:02,559  INFO com.epam.lab.jdbc.Main:24 - main() started
+2017-08-04 13:49:03,013  INFO com.epam.lab.jdbc.Main:69 - set up db
+2017-08-04 13:49:03,082  INFO com.epam.lab.jdbc.Main:71 - add student
+2017-08-04 13:49:09,622  INFO com.epam.lab.jdbc.Main:33 - main() ended
+2017-08-04 13:49:35,100  INFO com.epam.lab.jdbc.Main:24 - main() started
+2017-08-04 13:49:35,578  INFO com.epam.lab.jdbc.Main:67 - set up db
+2017-08-04 13:49:35,641  INFO com.epam.lab.jdbc.Main:69 - add student
+2017-08-04 13:49:36,595  INFO com.epam.lab.jdbc.Main:31 - main() ended
+2017-08-04 13:51:21,855  INFO com.epam.lab.jdbc.Main:24 - main() started
+2017-08-04 13:51:22,325  INFO com.epam.lab.jdbc.Main:73 - set up db
+2017-08-04 13:51:22,394  INFO com.epam.lab.jdbc.Main:75 - add student
+2017-08-04 13:52:06,812  INFO com.epam.lab.jdbc.Main:24 - main() started
+2017-08-04 13:52:07,313  INFO com.epam.lab.jdbc.Main:73 - set up db
+2017-08-04 13:52:07,360  INFO com.epam.lab.jdbc.Main:75 - add student
+2017-08-04 13:52:16,451  INFO com.epam.lab.jdbc.Main:34 - main() ended
+2017-08-04 14:14:56,875  INFO com.epam.lab.jdbc.Main:26 - main() started
+2017-08-04 14:14:57,356  INFO com.epam.lab.jdbc.Main:87 - set up db
+2017-08-04 14:14:57,423  INFO com.epam.lab.jdbc.Main:89 - add student
+2017-08-04 14:14:57,423  INFO com.epam.lab.jdbc.Main:52 - try to add department
+2017-08-04 14:14:57,461  INFO com.epam.lab.jdbc.Main:36 - main() ended
+2017-08-04 14:15:59,178  INFO com.epam.lab.jdbc.Main:26 - main() started
+2017-08-04 14:15:59,625  INFO com.epam.lab.jdbc.Main:87 - set up db
+2017-08-04 14:15:59,679  INFO com.epam.lab.jdbc.Main:52 - try to add department
+2017-08-04 14:15:59,710  INFO com.epam.lab.jdbc.Main:36 - main() ended
+2017-08-04 14:18:25,961  INFO com.epam.lab.jdbc.Main:26 - main() started
+2017-08-04 14:18:26,446  INFO com.epam.lab.jdbc.Main:100 - set up db
+2017-08-04 14:18:26,500  INFO com.epam.lab.jdbc.Main:54 - try to add department
+2017-08-04 14:18:29,535  INFO com.epam.lab.jdbc.Main:65 - try to add department
+2017-08-04 14:18:29,566  INFO com.epam.lab.jdbc.Main:38 - main() ended
+2017-08-04 14:19:48,578  INFO com.epam.lab.jdbc.Main:26 - main() started
+2017-08-04 14:19:49,042  INFO com.epam.lab.jdbc.Main:100 - set up db
+2017-08-04 14:19:49,105  INFO com.epam.lab.jdbc.Main:54 - try to add department
+2017-08-04 14:19:52,151  INFO com.epam.lab.jdbc.Main:65 - try to add department
+2017-08-04 14:19:52,198  INFO com.epam.lab.jdbc.Main:38 - main() ended
+2017-08-04 14:20:07,135  INFO com.epam.lab.jdbc.Main:26 - main() started
+2017-08-04 14:20:07,614  INFO com.epam.lab.jdbc.Main:100 - set up db
+2017-08-04 14:20:07,672  INFO com.epam.lab.jdbc.Main:54 - try to add department
+2017-08-04 14:20:10,695  INFO com.epam.lab.jdbc.Main:65 - try to add department
+2017-08-04 14:20:10,732  INFO com.epam.lab.jdbc.Main:38 - main() ended
+2017-08-04 14:20:50,362  INFO com.epam.lab.jdbc.Main:26 - main() started
+2017-08-04 14:20:50,910  INFO com.epam.lab.jdbc.Main:100 - set up db
+2017-08-04 14:20:50,957  INFO com.epam.lab.jdbc.Main:54 - try to add department
+2017-08-04 14:20:53,995  INFO com.epam.lab.jdbc.Main:65 - try to add department
+2017-08-04 14:20:54,047  INFO com.epam.lab.jdbc.Main:38 - main() ended
+2017-08-04 14:21:55,301  INFO com.epam.lab.jdbc.Main:26 - main() started
+2017-08-04 14:21:55,756  INFO com.epam.lab.jdbc.Main:100 - set up db
+2017-08-04 14:21:55,802  INFO com.epam.lab.jdbc.Main:54 - try to add department
+2017-08-04 14:21:58,844  INFO com.epam.lab.jdbc.Main:65 - try to add department
+2017-08-04 14:21:58,860  INFO com.epam.lab.jdbc.Main:38 - main() ended
+2017-08-04 14:23:29,313  INFO com.epam.lab.jdbc.Main:25 - main() started
+2017-08-04 14:23:29,815  INFO com.epam.lab.jdbc.Main:112 - set up db
+2017-08-04 14:23:29,894  INFO com.epam.lab.jdbc.Main:55 - try to add department
+2017-08-04 14:23:32,916  INFO com.epam.lab.jdbc.Main:67 - try to add department
+2017-08-04 14:23:35,934  INFO com.epam.lab.jdbc.Main:79 - try to add department
+2017-08-04 14:23:35,965  INFO com.epam.lab.jdbc.Main:39 - main() ended
+2017-08-04 14:24:11,962  INFO com.epam.lab.jdbc.Main:25 - main() started
+2017-08-04 14:24:12,441  INFO com.epam.lab.jdbc.Main:112 - set up db
+2017-08-04 14:24:12,495  INFO com.epam.lab.jdbc.Main:55 - try to add department
+2017-08-04 14:24:15,544  INFO com.epam.lab.jdbc.Main:67 - try to add department
+2017-08-04 14:24:18,569  INFO com.epam.lab.jdbc.Main:79 - try to add department
+2017-08-04 14:24:18,617  INFO com.epam.lab.jdbc.Main:39 - main() ended
+2017-08-04 14:25:12,348  INFO com.epam.lab.jdbc.Main:25 - main() started
+2017-08-04 14:25:12,883  INFO com.epam.lab.jdbc.Main:111 - set up db
+2017-08-04 14:25:12,944  INFO com.epam.lab.jdbc.Main:55 - try to add department
+2017-08-04 14:25:15,962  INFO com.epam.lab.jdbc.Main:67 - try to add department
+2017-08-04 14:25:19,046  INFO com.epam.lab.jdbc.Main:39 - main() ended
+2017-08-04 14:25:51,926  INFO com.epam.lab.jdbc.Main:25 - main() started
+2017-08-04 14:25:52,449  INFO com.epam.lab.jdbc.Main:111 - set up db
+2017-08-04 14:25:52,496  INFO com.epam.lab.jdbc.Main:55 - try to add department
+2017-08-04 14:25:55,529  INFO com.epam.lab.jdbc.Main:67 - try to add department
+2017-08-04 14:25:58,620  INFO com.epam.lab.jdbc.Main:39 - main() ended
+2017-08-04 14:26:43,119  INFO com.epam.lab.jdbc.Main:25 - main() started
+2017-08-04 14:26:43,647  INFO com.epam.lab.jdbc.Main:111 - set up db
+2017-08-04 14:26:43,701  INFO com.epam.lab.jdbc.Main:55 - try to add department
+2017-08-04 14:26:46,736  INFO com.epam.lab.jdbc.Main:67 - try to add department
+2017-08-04 14:26:49,801  INFO com.epam.lab.jdbc.Main:39 - main() ended
+2017-08-04 14:27:46,232  INFO com.epam.lab.jdbc.Main:25 - main() started
+2017-08-04 14:27:46,679  INFO com.epam.lab.jdbc.Main:111 - set up db
+2017-08-04 14:27:46,733  INFO com.epam.lab.jdbc.Main:55 - try to add department
+2017-08-04 14:27:49,766  INFO com.epam.lab.jdbc.Main:67 - try to add department
+2017-08-04 14:27:52,805  INFO com.epam.lab.jdbc.Main:39 - main() ended
+2017-08-04 14:33:11,052  INFO com.epam.lab.jdbc.Main:25 - main() started
+2017-08-04 14:33:11,531  INFO com.epam.lab.jdbc.Main:111 - set up db
+2017-08-04 14:33:11,604  INFO com.epam.lab.jdbc.Main:55 - try to add department
+2017-08-04 14:33:14,620  INFO com.epam.lab.jdbc.Main:67 - try to add department
+2017-08-04 14:33:17,660  INFO com.epam.lab.jdbc.Main:39 - main() ended
+2017-08-04 14:35:39,563  INFO com.epam.lab.jdbc.Main:25 - main() started
+2017-08-04 14:35:40,028  INFO com.epam.lab.jdbc.Main:111 - set up db
+2017-08-04 14:35:40,081  INFO com.epam.lab.jdbc.Main:55 - try to add department
+2017-08-04 14:35:43,117  INFO com.epam.lab.jdbc.Main:67 - try to update department
+2017-08-04 14:35:46,172  INFO com.epam.lab.jdbc.Main:39 - main() ended
+2017-08-04 14:42:04,292  INFO com.epam.lab.jdbc.Main:25 - main() started
+2017-08-04 14:42:04,851  INFO com.epam.lab.jdbc.Main:111 - set up db
+2017-08-04 14:42:04,923  INFO com.epam.lab.jdbc.Main:55 - try to add department
+2017-08-04 14:42:07,970  INFO com.epam.lab.jdbc.Main:67 - try to update department
+2017-08-04 14:42:11,020  INFO com.epam.lab.jdbc.Main:39 - main() ended
+2017-08-04 14:43:36,689  INFO com.epam.lab.jdbc.Main:25 - main() started
+2017-08-04 14:43:37,144  INFO com.epam.lab.jdbc.Main:111 - set up db
+2017-08-04 14:43:37,204  INFO com.epam.lab.jdbc.Main:55 - try to add department
+2017-08-04 14:43:40,238  INFO com.epam.lab.jdbc.Main:67 - try to update department
+2017-08-04 14:43:43,297  INFO com.epam.lab.jdbc.Main:39 - main() ended
+2017-08-04 14:50:28,492  INFO com.epam.lab.jdbc.Main:25 - main() started
+2017-08-04 14:50:29,051  INFO com.epam.lab.jdbc.Main:111 - set up db
+2017-08-04 14:50:29,110  INFO com.epam.lab.jdbc.Main:55 - try to add department
+2017-08-04 14:50:32,143  INFO com.epam.lab.jdbc.Main:67 - try to update department
+2017-08-04 14:50:35,192  INFO com.epam.lab.jdbc.Main:39 - main() ended
+2017-08-04 14:52:56,136  INFO com.epam.lab.jdbc.Main:25 - main() started
+2017-08-04 14:52:56,643  INFO com.epam.lab.jdbc.Main:111 - set up db
+2017-08-04 14:52:56,706  INFO com.epam.lab.jdbc.Main:55 - try to add department
+2017-08-04 14:52:59,748  INFO com.epam.lab.jdbc.Main:67 - try to update department
+2017-08-04 14:53:02,818  INFO com.epam.lab.jdbc.Main:39 - main() ended
+2017-08-04 17:54:11,348  INFO com.epam.lab.jdbc.Main:25 - main() started
+2017-08-04 17:54:11,904  INFO com.epam.lab.jdbc.Main:49 - main() ended
+2017-08-04 17:54:43,695  INFO com.epam.lab.jdbc.Main:25 - main() started
+2017-08-04 17:54:44,251  INFO com.epam.lab.jdbc.Main:49 - main() ended
+2017-08-04 17:55:08,956  INFO com.epam.lab.jdbc.Main:25 - main() started
+2017-08-04 17:55:09,487  INFO com.epam.lab.jdbc.Main:121 - set up db
+2017-08-04 17:55:09,619  INFO com.epam.lab.jdbc.Main:49 - main() ended
+2017-08-04 17:55:27,347  INFO com.epam.lab.jdbc.Main:25 - main() started
+2017-08-04 17:55:27,828  INFO com.epam.lab.jdbc.Main:122 - set up db
+2017-08-04 17:55:57,006  INFO com.epam.lab.jdbc.Main:25 - main() started
+2017-08-04 17:55:57,478  INFO com.epam.lab.jdbc.Main:122 - set up db
+2017-08-04 17:55:57,578  INFO com.epam.lab.jdbc.Main:40 - Student{gradebook_no=3112070, first_name='Mykola', last_name='Sobko', gender='M', dob='1994-05-23', phone_number='09374055665', department_fk='null'}
+2017-08-04 17:55:57,579  INFO com.epam.lab.jdbc.Main:50 - main() ended
+2017-08-04 19:09:30,601  INFO com.epam.lab.jdbc.Main:20 - main() started
+2017-08-04 19:09:31,213  INFO com.epam.lab.jdbc.Main:62 - set up db
+2017-08-04 19:09:31,275  INFO com.epam.lab.jdbc.Main:44 - main() ended

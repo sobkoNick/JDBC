@@ -25,6 +25,17 @@ public class StudentDto {
         return student;
     }
 
+    public List<Student> getAllStudent(Connection connection) throws SQLException {
+        PreparedStatement preparedStatement = connection.prepareStatement
+                ("SELECT * from student s;");
+        ResultSet resultSet = preparedStatement.executeQuery();
+        List<Student> students = new ArrayList<>();
+        while (resultSet.next()) {
+            students.add(getStudentData(resultSet));
+        }
+        return students;
+    }
+
     private Student getStudentData(ResultSet resultSet) throws SQLException {
         Student student = new Student();
         student.setGradebook_no(resultSet.getInt("gradebook_no"));
@@ -35,16 +46,5 @@ public class StudentDto {
         student.setPhone_number(resultSet.getString("phone_number"));
         student.setDepartment_fk(resultSet.getString("department_fk"));
         return student;
-    }
-
-    public List<Student> getAllStudent(Connection connection) throws SQLException {
-        PreparedStatement preparedStatement = connection.prepareStatement
-                ("SELECT * from student s;");
-        ResultSet resultSet = preparedStatement.executeQuery();
-        List<Student> students = new ArrayList<>();
-        while (resultSet.next()) {
-            students.add(getStudentData(resultSet));
-        }
-        return students;
     }
 }

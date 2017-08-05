@@ -56,7 +56,7 @@ public class SettingUpDataBase {
         }
     }
 
-    public static void addDataToDB(Logger LOG) {
+    public static void addDataToDB(Logger LOG) throws SQLException {
         DepartmentServiceImpl departmentService = new DepartmentServiceImpl();
         departmentService.addDep(new Department("феі21", 2, "комп науки"));
         departmentService.addDep(new Department("феі31", 3, "комп науки"));
@@ -67,14 +67,27 @@ public class SettingUpDataBase {
         studentService.addStudent(new Student(3112050, "Andrei", "Tkass", "M", "1995-05-22", "0503505030", "феі21"));
         studentService.addStudent(new Student(3112020, "Vassa", "Rojo", "M", "1997-08-28", "0687002034", "фем11"));
 
+        showAllDep(LOG);
+        showAllStudents(LOG);
+    }
+
+    public static void showAllStudents(Logger LOG) throws SQLException {
+        try (Connection connection = DriverManager.getConnection(SQLConst.URL, SQLConst.USER, SQLConst.PASSWORD)) {
+            SettingUpDataBase.useUniverDB(connection);
+            LOG.info("All students:");
+            StudentDto studentDto = new StudentDto();
+            studentDto.getAllStudent(connection).forEach(LOG::info);
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+    }
+
+    public static void showAllDep(Logger LOG) throws SQLException {
         try (Connection connection = DriverManager.getConnection(SQLConst.URL, SQLConst.USER, SQLConst.PASSWORD)) {
             SettingUpDataBase.useUniverDB(connection);
             DepartmentDto departmentDto = new DepartmentDto();
             LOG.info("All departments:");
             departmentDto.getAllDepartments(connection).forEach(LOG::info);
-            LOG.info("All students:");
-            StudentDto studentDto = new StudentDto();
-            studentDto.getAllStudent(connection).forEach(LOG::info);
         } catch (SQLException e) {
             e.printStackTrace();
         }

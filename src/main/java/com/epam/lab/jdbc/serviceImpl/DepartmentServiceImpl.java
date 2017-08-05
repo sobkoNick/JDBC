@@ -2,6 +2,7 @@ package com.epam.lab.jdbc.serviceImpl;
 
 import com.epam.lab.jdbc.SettingUpDataBase;
 import com.epam.lab.jdbc.dao.DepartmentDao;
+import com.epam.lab.jdbc.dto.DepartmentDto;
 import com.epam.lab.jdbc.entity.Department;
 import com.epam.lab.jdbc.service.DepartmentService;
 import com.epam.lab.jdbc.sqlConst.SQLConst;
@@ -9,6 +10,7 @@ import com.epam.lab.jdbc.sqlConst.SQLConst;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
+import java.util.List;
 
 /**
  *
@@ -45,5 +47,17 @@ public class DepartmentServiceImpl implements DepartmentService {
         } catch (SQLException e) {
             e.printStackTrace();
         }
+    }
+
+    @Override
+    public List<Department> getAllDepartments() {
+        try (Connection connection = DriverManager.getConnection(SQLConst.URL, SQLConst.USER, SQLConst.PASSWORD)) {
+            SettingUpDataBase.useUniverDB(connection);
+            DepartmentDto departmentDto = new DepartmentDto();
+            return departmentDto.getAllDepartments(connection);
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return null;
     }
 }

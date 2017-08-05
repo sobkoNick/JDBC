@@ -27,12 +27,13 @@ public class StudentDao {
 
     public void updateStudent(Connection connection, int gradebook, Student student) throws SQLException {
         PreparedStatement preparedStatement = connection.prepareStatement("UPDATE student SET first_name = ?, last_name = ?, " +
-                "dob = ?, phone_number = ? WHERE gradebook_no = ?;");
+                "dob = ?, phone_number = ?, department_fk = ? WHERE gradebook_no = ?;");
         preparedStatement.setString(1, student.getFirst_name());
         preparedStatement.setString(2, student.getLast_name());
         preparedStatement.setDate(3, Date.valueOf(student.getDob()));
         preparedStatement.setString(4, student.getPhone_number());
-        preparedStatement.setInt(5, gradebook);
+        preparedStatement.setString(5, student.getDepartment_fk());
+        preparedStatement.setInt(6, gradebook);
         preparedStatement.execute();
     }
 
