@@ -30,7 +30,7 @@ public class Main {
         boolean ifProgramToWork = true;
         boolean nextAction = true;
         while (ifProgramToWork) {
-            LOG.info("---choose table to work with (s-students, d-department). any other to exit---");
+            LOG.info("---choose table to work with (s-students, d-department). M to get MetaData. any other to exit---");
             String table = scanner.next();
             nextAction = true;
             if (table.equalsIgnoreCase("s")) {
@@ -41,6 +41,8 @@ public class Main {
                 while (nextAction) {
                     nextAction = doDepartmentActionsChanges(nextAction);
                 }
+            } else if (table.equalsIgnoreCase("M")) {
+                BDMetaData.showMetaData();
             } else {
                 ifProgramToWork = false;
             }
